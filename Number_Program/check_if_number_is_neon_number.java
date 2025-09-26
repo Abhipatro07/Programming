@@ -12,7 +12,7 @@ public class check_if_number_is_neon_number {
             System.out.println("It is a Neon Number");
         }
         else{
-            System.out.println("It is a not a Neon Number");
+            System.out.println("It is not a Neon Number");
         }
     }
 
