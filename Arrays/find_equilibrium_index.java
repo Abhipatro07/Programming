@@ -107,5 +107,24 @@ public class find_equilibrium_index {
         }
     }
 
-    public 
+     public static int findEquilibriumIndex(int[] arr){
+        int totalSum = 0;
+
+        for(int num : arr){
+            totalSum += num;
+        }
+
+        int leftSum = 0;
+        for(int i = 0;i<=arr.length-1;i++){
+            int rightSum = totalSum - leftSum - arr[i];
+
+            if(rightSum == leftSum){
+                return i;
+            }
+
+            leftSum += arr[i];
+        }
+
+        return -1;
+     }
 }
