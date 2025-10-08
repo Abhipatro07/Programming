@@ -16,7 +16,7 @@ Output: catsAndDogs Are Awesome
 
 Input: a b c d-e-f%g"
 
-Output: ABCDEFG
+Output: aBCDEFG
 */
 package Practice;
 
