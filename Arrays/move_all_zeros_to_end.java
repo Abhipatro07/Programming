@@ -71,15 +71,13 @@ public class move_all_zeros_to_end {
         // Move all non-zero elements to the front
         for(int i = 0; i < arr.length; i++){
             if(arr[i] != 0){
-                arr[nonZeroIndex] = arr[i];
-                nonZeroIndex++;
+                arr[nonZeroIndex++] = arr[i];
             }
         }
 
         // Fill remaining positions with zeros
         while(nonZeroIndex < arr.length){
-            arr[nonZeroIndex] = 0;
-            nonZeroIndex++;
+            arr[nonZeroIndex++] = 0;
         }
         
     }
