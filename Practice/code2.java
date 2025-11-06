@@ -18,7 +18,7 @@ So your program should return the elements of this matrix in an anti-clockwise, 
  * [16,17,18,19,20] 31 32 33 34 35
  * [21,22,23,24,25] 41 42 43 44 45
  */
-public class code2 {
+public class Code2 {
 	public static void main(String args[]) {
 		String[][] str = {{"1", "2", "3","4","5"},{"6","7", "8", "9", "10"},{"11", "12", "13", "14", "15"},{"16", "17", "18", "19", "20"},{"21", "22", "23", "24", "25"} } ;
 		int n=5;

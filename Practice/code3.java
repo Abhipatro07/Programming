@@ -9,7 +9,7 @@ both of which are primes
 
  import java.util.*;
 
-public class code3 {
+public class Code3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

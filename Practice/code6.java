@@ -4,7 +4,7 @@ ex: missingLetter(["a", "b", "c", "e", "f", "g"]) ➞ "d"
  */
 package Practice;
 
-public class code6 {
+public class Code6 {
 
     public static void main(String[] args) {
         char arr[] = {'a', 'b', 'c', 'e', 'f', 'g'};

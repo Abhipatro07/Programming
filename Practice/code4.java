@@ -8,7 +8,7 @@ Output: [31, 43, 43]
 
 import java.util.ArrayList;
 
-public class code4 {
+public class Code4 {
 
     public static void main(String[] args) {
         int arr[] = {8, 58, 25, 18, 31, 32, 63, 92, 43, 3, 91, 93, 25, 80, 28};

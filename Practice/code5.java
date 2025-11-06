@@ -6,7 +6,7 @@ Create a function that will remove any repeated character(s) in a word passed to
 Not just consecutive characters, but characters repeating anywhere in the string.
 		ex: unrepeated("teshahset") ➞ "tesha"
  */
-public class code5 {
+public class Code5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(("enter a string: "));
